@@ -4,7 +4,11 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        System.out.println("Hello Hello!");
-        System.out.println("No moro moro!");
+        getPrintln("Hello Hello!");
+        getPrintln("No moro moro!");
+    }
+
+    private static void getPrintln(String message) {
+        System.out.println(message);
     }
 }
